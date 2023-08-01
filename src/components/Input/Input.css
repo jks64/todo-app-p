@@ -1,0 +1,33 @@
+.input__container {
+  display: flex;
+  position: absolute;
+  top: 33%;
+  width: 500px;
+  left: 50%;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  gap: 10px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.input__add-task_btn {
+  background-color: rgb(54, 54, 255);
+  border-radius: 3;
+  margin-top: 25px;
+}
+.input__post-form__container {
+  display: flex;
+  left: 32.5%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 530px;
+  position: absolute;
+  word-wrap: break-word;
+  height: auto;
+  gap: 10px;
+  padding-bottom: 20px;
+  white-space: normal;
+}

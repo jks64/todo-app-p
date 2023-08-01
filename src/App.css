@@ -1,0 +1,8 @@
+.app__title {
+  color: blue;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

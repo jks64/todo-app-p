@@ -1,0 +1,33 @@
+.post-form__container {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  max-width: 500px;
+  word-break: break-all;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  margin: 1px;
+}
+
+.post-form__toggle_Btn {
+  margin-top: 10px;
+  background-color: rgb(54, 54, 255);
+  font-size: 14px;
+}
+
+.post-form__task_title {
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.post-form__delate-btn {
+  background-color: red;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  margin: 0;
+}

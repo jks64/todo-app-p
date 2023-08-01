@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
+import Input from './components/Input/Input';
 
 function App() {
-  const headingStyle = {
-    color: 'red',
-  };
-
   return (
     <div>
-      <h1 style={headingStyle}>Hello World ! :D</h1>
+      <h1 className="app__title">Todo App</h1>
+      <Input />
     </div>
   );
 }
