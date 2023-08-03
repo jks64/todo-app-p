@@ -12,6 +12,8 @@
   position: relative;
   justify-content: center;
   margin: 1px;
+  margin-top: 40px;
+  margin-left: 1.5%;
 }
 
 .post-form__toggle_Btn {

@@ -17,6 +17,13 @@ export default function Input() {
     setTasks(response.data);
   }
 
+  async function fetchP() {
+    let r = await fetch('https://jsonplaceholder.typicode.com/posts');
+    console.log(await r.json());
+  }
+
+  fetchP();
+
   const addTask = () => {
     const newTask = {
       title: nameValue,
