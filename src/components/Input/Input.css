@@ -20,7 +20,8 @@
 }
 .input__post-form__container {
   display: flex;
-  left: 32.5%;
+  left: 0.5%;
+  top: 100%;
   flex-direction: column;
   flex-wrap: wrap;
   width: 530px;

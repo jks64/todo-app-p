@@ -61,17 +61,17 @@ export default function Input() {
           Add Task
         </button>
         <button onClick={fetchPosts}>GET POSTS</button>
-      </div>
-      <div className="input__post-form__container">
-        {tasks.map((task) => (
-          <PostForm
-            key={task.id}
-            id={task.id}
-            title={task.title}
-            body={task.body}
-            onDelete={() => handleDelete(task.id)}
-          />
-        ))}
+        <div className="input__post-form__container">
+          {tasks.map((task) => (
+            <PostForm
+              key={task.id}
+              id={task.id}
+              title={task.title}
+              body={task.body}
+              onDelete={() => handleDelete(task.id)}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
