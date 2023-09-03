@@ -21,11 +21,16 @@
   background-color: rgb(54, 54, 255);
   font-size: 14px;
 }
+.post-form__toggle_Btn:focus {
+  border: none;
+  outline: none;
+}
 
 .post-form__task_title {
   margin-top: 15px;
   padding-bottom: 10px;
 }
+
 .post-form__delate-btn {
   background-color: red;
   position: absolute;

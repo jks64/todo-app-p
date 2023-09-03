@@ -16,7 +16,7 @@ export default function PostForm(props) {
       <strong className="post-form__task_title">{props.title}</strong>
       {heightState ? null : <span>{props.body}</span>}
       <button className="post-form__toggle_Btn" onClick={toggleHeight}>
-        Свернуть/Развернуть
+        Collapse/Expand
       </button>
     </div>
   );
