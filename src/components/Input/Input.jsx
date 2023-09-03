@@ -9,21 +9,6 @@ export default function Input() {
   const [descriptionValue, setDescriptionValue] = useState('');
   const [tasks, setTasks] = useState([]);
   const [idNumber, setIdNumber] = useState(1);
-
-  async function fetchPosts() {
-    const response = await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    );
-    setTasks(response.data);
-  }
-
-  async function fetchP() {
-    let r = await fetch('https://jsonplaceholder.typicode.com/posts');
-    console.log(await r.json());
-  }
-
-  fetchP();
-
   const addTask = () => {
     const newTask = {
       title: nameValue,
@@ -60,7 +45,6 @@ export default function Input() {
         <button onClick={addTask} className="input__add-task_btn">
           Add Task
         </button>
-        <button onClick={fetchPosts}>GET POSTS</button>
         <div className="input__post-form__container">
           {tasks.map((task) => (
             <PostForm
